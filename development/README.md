@@ -1,12 +1,17 @@
 # Getting Started
 
+    this doc is customize by DAP.
+
 ## Prerequisites
 
 In order to start developing you need to satisfy the following prerequisites:
 
+- Define your develop operation system.
 - Docker
 - docker-compose
 - user added to docker group
+
+If using window 10 with docker you should pre-config you machine by for doing following step
 
 It is recommended you allocate at least 4GB of RAM to docker:
 
@@ -280,6 +285,7 @@ In case you don't use VSCode, you may start the containers manually with the fol
 docker-compose -f .devcontainer/docker-compose.yml up -d
 ```
 
+### Interact with application by docker 
 And enter the interactive shell for the development container with the following command:
 
 ```shell
